@@ -2,20 +2,22 @@
   margin:0px;
   padding:0px;
   box-sizing:border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  color:maroon;
+  font-family: helvetica neue;
 }
 html,body{
   height:100%;
   width:100%;
 }
-body{
-  background-color: grey
-}
-.card {
+.Card {
  background-color: pink;
  border-radius:10px;
- margin:20px;
- padding:20px;
-  
+ margin:20px;  
+
+}
+.nav{
+  background-color:rgb(231, 228, 228);
+ color:rgb(215, 25, 56);
+ margin:10px;
+ border-radius:10px;
+ padding:10px;
 }
