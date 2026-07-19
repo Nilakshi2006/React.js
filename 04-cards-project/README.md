@@ -1,16 +1,59 @@
-# React + Vite
+# React Chapter 4 – Props & List Rendering ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This chapter focuses on building a dynamic React interface by combining **Props** and the JavaScript **`.map()`** method. Instead of manually creating multiple components, I learned how to render reusable components from an array of data.
 
-Currently, two official plugins are available:
+## 📌 About This Chapter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In this chapter, I built a **Job Openings UI** that displays multiple job cards using a single reusable `Card` component. Job information is stored in an array of objects, and each card is rendered dynamically using the `.map()` method.
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Job Openings UI](./src/assets/Preview.png)
 
-## Expanding the ESLint configuration
+## 🚀 What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Understanding list rendering in React
+* Using the JavaScript `.map()` method to render components
+* Rendering multiple components dynamically
+* Passing data through Props
+* Creating reusable UI components
+* Working with arrays of objects
+* Using the `key` prop while rendering lists
+* Organizing and displaying dynamic data
+* Building a responsive card-based layout
+
+## 🛠️ Technologies Used
+
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Lucide React Icons
+
+## 📂 Folder Structure
+
+```text
+src/
+├── components/
+│   └── Card.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Learning Outcome
+
+After completing this chapter, I can:
+
+* Render multiple React components using `.map()`.
+* Pass dynamic data to child components using Props.
+* Work with arrays of objects in React.
+* Build reusable card components.
+* Use the `key` prop correctly when rendering lists.
+* Create clean and scalable React user interfaces.
+
+## 📖 React Learning Journey
+
+This chapter is part of my React learning repository, where I practice every concept by writing the code manually to strengthen my understanding of React and component-based development.

@@ -1,16 +1,52 @@
-# React + Vite
+# React Chapter 3 – Props ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This chapter introduces **Props (Properties)**, one of the fundamental concepts in React used to pass data from a parent component to child components. Props make components reusable, dynamic, and easy to maintain.
 
-Currently, two official plugins are available:
+## 📌 About This Chapter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In this chapter, I learned how to pass different types of data from the `App` component to child components using props. Instead of creating separate components for each user, I built a single reusable `Card` component that displays different information based on the values passed to it.
 
-## React Compiler
+## 🚀 What I Learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Understanding React Props
+* Passing data from parent to child components
+* Accessing props inside a component
+* Rendering dynamic content using props
+* Creating reusable UI components
+* Passing multiple props (text, images, descriptions)
+* Displaying different data using the same component
+* Building cleaner and more maintainable React code
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+## 📂 Folder Structure
+
+```text
+src/
+├── components/
+│   └── Card.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Learning Outcome
+
+After completing this chapter, I can:
+
+* Pass data between React components using props.
+* Access and use props inside functional components.
+* Build reusable components that display dynamic content.
+* Reduce code duplication by reusing the same component with different data.
+* Organize React applications using a component-based approach.
+
+## 📖 React Learning Journey
+
+This chapter is part of my React learning repository, where I practice every concept by writing the code manually to strengthen my understanding of React and component-based development.

@@ -103,7 +103,6 @@ const App = () => {
     location: "Austin, Texas",
   },
 ];
-console.log(jobOpenings)
   return (
     <div className="parent">
      { jobOpenings.map(function(elem,idx){

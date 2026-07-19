@@ -1,16 +1,52 @@
-# React + Vite
+# React Chapter 1 – React Basics ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This chapter marks the beginning of my React learning journey. It was created using **React** and **Vite** to understand the fundamental concepts of React and how a React application is structured.
 
-Currently, two official plugins are available:
+## 📌 About This Chapter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In this chapter, I explored the basics of React by creating my first React application. Through hands-on coding, I learned how React renders components, uses JSX, and organizes code in a component-based structure.
 
-## React Compiler
+## 🚀 What I Learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* What React is and why it is used
+* Setting up a React application using **Vite**
+* Understanding the React folder structure
+* Creating functional components
+* Writing UI with **JSX**
+* Returning multiple elements using a parent `<div>`
+* Exporting and importing components
+* Rendering components to the browser
+* Applying global styling with CSS
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+## 📂 Folder Structure
+
+```text
+src/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Learning Outcome
+
+After completing this chapter, I can:
+
+* Create a React application using Vite.
+* Write and return JSX.
+* Build functional components.
+* Understand the basic React file structure.
+* Apply global styles using CSS.
+* Render React components successfully in the browser.
+
+## 📖 React Learning Journey
+
+This chapter is part of my React learning repository, where I practice every concept by writing the code manually. The goal is to build a strong foundation in React before moving on to advanced topics such as state management, hooks, routing, and API integration.
+

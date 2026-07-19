@@ -1,16 +1,54 @@
-# React + Vite
+# React Chapter 2 – Components ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This chapter focuses on one of the core concepts of React—**Components**. I learned how to break a user interface into reusable pieces, making applications more organized, maintainable, and scalable.
 
-Currently, two official plugins are available:
+## 📌 About This Chapter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+In this chapter, I created multiple functional components and rendered them inside the main `App` component. I also explored how components help organize code by separating different parts of the user interface into independent, reusable files.
 
-## React Compiler
+## 🚀 What I Learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Understanding React Components
+* Creating Functional Components
+* Importing and Exporting Components
+* Rendering Components inside `App.jsx`
+* Organizing components into separate files
+* Building reusable UI components
+* Applying CSS styles to individual components
+* Understanding component-based architecture
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+## 📂 Folder Structure
+
+```text
+src/
+├── Components/
+│   ├── Card.jsx
+│   └── Navbar.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Learning Outcome
+
+After completing this chapter, I can:
+
+* Create reusable React components.
+* Import and export components using ES6 modules.
+* Render multiple components inside a parent component.
+* Organize React applications using a component-based structure.
+* Apply styles to different UI components.
+
+## 📖 React Learning Journey
+
+This chapter is part of my React learning repository, where I practice every concept by writing the code manually. Learning components is an important step toward building modular and scalable React applications, as almost every React application is built by combining multiple reusable components.
+
