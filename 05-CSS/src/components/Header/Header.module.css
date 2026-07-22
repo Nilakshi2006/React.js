@@ -1,0 +1,11 @@
+.Header{
+    background-color: aqua;
+    display:flex;
+    align-items:space-between;
+    justify-content:space-between;
+    padding:10px 20px;
+    margin:5px;
+}
+.logo{
+    text-decoration: underline;
+}
