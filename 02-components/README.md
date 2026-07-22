@@ -48,7 +48,5 @@ After completing this chapter, I can:
 * Organize React applications using a component-based structure.
 * Apply styles to different UI components.
 
-## 📖 React Learning Journey
 
-This chapter is part of my React learning repository, where I practice every concept by writing the code manually. Learning components is an important step toward building modular and scalable React applications, as almost every React application is built by combining multiple reusable components.
 

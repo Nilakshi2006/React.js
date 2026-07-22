@@ -47,6 +47,4 @@ After completing this chapter, I can:
 * Reduce code duplication by reusing the same component with different data.
 * Organize React applications using a component-based approach.
 
-## 📖 React Learning Journey
 
-This chapter is part of my React learning repository, where I practice every concept by writing the code manually to strengthen my understanding of React and component-based development.

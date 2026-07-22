@@ -54,6 +54,4 @@ After completing this chapter, I can:
 * Use the `key` prop correctly when rendering lists.
 * Create clean and scalable React user interfaces.
 
-## 📖 React Learning Journey
 
-This chapter is part of my React learning repository, where I practice every concept by writing the code manually to strengthen my understanding of React and component-based development.

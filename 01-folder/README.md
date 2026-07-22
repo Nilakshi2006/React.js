@@ -46,7 +46,5 @@ After completing this chapter, I can:
 * Apply global styles using CSS.
 * Render React components successfully in the browser.
 
-## 📖 React Learning Journey
 
-This chapter is part of my React learning repository, where I practice every concept by writing the code manually. The goal is to build a strong foundation in React before moving on to advanced topics such as state management, hooks, routing, and API integration.
 
