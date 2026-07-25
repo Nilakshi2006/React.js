@@ -58,8 +58,6 @@ The application is divided into reusable React components such as a navigation b
 
 ### Home Page
 
-### Home Page
-
 ![Home1](./src/assets/img1.png)
 
 ![Home2](./src/assets/img2.png)
