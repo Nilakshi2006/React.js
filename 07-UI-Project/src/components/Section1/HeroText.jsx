@@ -6,7 +6,7 @@ const Hero = () => {
     <h3 className="mb-7 text-5xl font-bold">
         Prospective <br/> <span > Customer</span> <br/>Segmentation
     </h3>
-    <p className="text-lg font-medium text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias ducimus voluptatum autem, ratione id illo porro rerum distinctio quo!</p>
+    <p className="text-lg w-[90%] font-medium text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias ducimus voluptatum autem, ratione id illo porro rerum distinctio quo!</p>
    </div>
   )
 }
