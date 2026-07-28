@@ -1,0 +1,19 @@
+button{
+    margin:4px;
+    padding:4px;
+}
+.page1{
+    height:800px;
+    width:1500px;
+    background-color: #111;
+}
+.page2{
+    height:800px;
+    width:1500px;
+    background-color: #211;
+}
+.page3{
+    height:800px;
+    width:1500px;
+    background-color: #121;
+}
