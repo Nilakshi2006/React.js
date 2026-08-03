@@ -1,4 +1,4 @@
-# React Chapter 12 – Two-Way Binding ⚛️🔁
+# React Chapter 11 – Two-Way Binding ⚛️🔁 (Part 2)
 
 This chapter continues **form handling in React** — using two-way data binding to keep a controlled input in sync with state.
 
@@ -20,6 +20,15 @@ One example is written in `App.jsx`, showing a controlled text input bound to st
 ---
 
 ## 🧩 Concepts Covered
+
+### 🔗 What is Two-Way Binding?
+
+Two-way binding means a form element's displayed value and a piece of state stay in sync in **both directions**:
+
+* **State → Input:** the input's `value` prop is set from state, so whatever the state holds is what the input shows.
+* **Input → State:** the input's `onChange` event updates that same state with whatever the user types.
+
+So data doesn't just flow one way (state controlling the UI) — user interaction also flows back and updates the state, which then re-renders the UI. This is why it's called "two-way": a change on either side (state or input) is reflected on the other. In React this is achieved manually by pairing `value={state}` with `onChange={e => setState(e.target.value)}` — this pattern is often called a **controlled component**, because React (via state) fully controls the input's value instead of the DOM managing it on its own.
 
 ### Two-Way Binding
 ```jsx
