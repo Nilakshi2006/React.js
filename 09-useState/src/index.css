@@ -10,8 +10,6 @@ body {
   height: 100%;
   width: 100%;
 }
-/*Uncomment this to use mini project*/
-/* 
 body {
   background: #f4f4f4;
   display: flex;
@@ -69,4 +67,4 @@ button:hover {
 
 button:active {
   transform: scale(0.97);
-} */
+} 
