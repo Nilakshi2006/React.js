@@ -4,7 +4,7 @@ import { useState } from 'react'
 const App = () => {
   const submit=(e)=>{
     e.preventDefault();
-    console.log("Form in Submitted")
+    console.log("Form is Submitted")
   }
   return (
     <div>
