@@ -1,4 +1,4 @@
-# React Chapter 12 – Local Storage ⚛️💾
+# React Chapter 14 – Local Storage ⚛️💾
 
 This chapter covers **using the browser's `localStorage` API in React** — storing, reading, and removing data, including strings, objects, and arrays.
 
