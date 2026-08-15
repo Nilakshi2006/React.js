@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #020617;
+  color: #fff;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
